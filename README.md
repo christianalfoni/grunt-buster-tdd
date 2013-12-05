@@ -59,5 +59,5 @@ By hitting **space** you can collapse the successfull tests. If any error occurs
 
 ## In the future
 - Handle all types of failed tests
-- Test lib agnostic, one reporter to rule them all
+- Test lib agnostic, one reporter to rule them all... or some of them ;-)
 - Show Node JS test results in the browser
