@@ -45,3 +45,4 @@ Given that you have the file *tests/foo-test.js*, you load the runner with: **gr
 
 
 ## How it looks
+![Successfull tests](https://raw.github.com/christianalfoni/grunt-buster-tdd/master/fullscreen.png "Successfull tests")
