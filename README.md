@@ -3,6 +3,9 @@ grunt-buster-tdd
 
 Get on with TDD in the browser with this auto-reload, one-file and error highlighting testrunner/reporter.
 
+## Dependency
+- grunt-contrib-watch (**npm install grunt-contrib-watch**)
+
 ## Install
 **npm install grunt-buster-tdd**
 
