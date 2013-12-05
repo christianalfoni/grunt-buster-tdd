@@ -56,3 +56,8 @@ A summary of tests are shown at the top and a nested structure shows your tests.
 
 By hitting **space** you can collapse the successfull tests. If any error occurs, it will be displayed.
 ![Collapsed tests with error](https://raw.github.com/christianalfoni/grunt-buster-tdd/master/error.png "Collapsed tests with error")
+
+## In the future
+- Handle all types of failed tests
+- Test lib agnostic, one reporter to rule them all
+- Show Node JS test results in the browser
