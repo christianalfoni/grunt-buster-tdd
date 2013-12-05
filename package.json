@@ -1,7 +1,7 @@
 {
   "name": "grunt-buster-tdd",
   "description": "Get on with TDD with this auto-reload, one-file and error highlighting testrunner/reporter",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "homepage": "https://github.com/christianalfoni/grunt-buster-tdd",
   "author": {
     "name": "christianalfoni",
