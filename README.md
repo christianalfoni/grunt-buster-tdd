@@ -42,7 +42,12 @@ Given that you have the file *tests/foo-test.js*, you load the runner with: **gr
 - press **space** to collapse and expand the successfull tests
 - You can nest tests as much as you want
 - If you'd rather use **expect js** to assert your tests, you are welcome to just do that, it is included. Or use **Buster js** assertions
+- The stack trace shown is only related to your testfile and source code, never the test framework
 
 
 ## How it looks
+A summary of tests are shown at the top and a nested structure shows your tests.
 ![Successfull tests](https://raw.github.com/christianalfoni/grunt-buster-tdd/master/fullscreen.png "Successfull tests")
+
+By hitting **space** you can collapse the successfull tests. If any error occurs, it will be displayed.
+![Collapsed tests with error](https://raw.github.com/christianalfoni/grunt-buster-tdd/master/error.png "Collapsed tests with error")
