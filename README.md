@@ -42,5 +42,6 @@ Given that you have the file *tests/foo-test.js*, you load the runner with: **gr
 - press **space** to collapse and expand the successfull tests
 - You can nest tests as much as you want
 - If you'd rather use **expect js** to assert your tests, you are welcome to just do that, it is included. Or use **Buster js** assertions
-- 
+
+
 ## How it looks
