@@ -1,0 +1,36 @@
+{
+  "name": "grunt-buster-tdd",
+  "description": "Get on with TDD with this auto-reload, one-file and error highlighting testrunner/reporter",
+  "version": "0.1.0",
+  "homepage": "https://github.com/christianalfoni/grunt-buster-tdd",
+  "author": {
+    "name": "christianalfoni",
+    "email": "christian.jorgensen@marcello.no",
+    "url": "www.christianalfoni.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/christianalfoni/grunt-buster-tdd"
+  },
+  "bugs": {
+    "url": "https://github.com/christianalfoni/grunt-buster-tdd/issues"
+  },
+  "main": "Gruntfile.js",
+  "engines": {
+    "node": ">= 0.8.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+      "grunt": "~0.4.1"
+  },
+  "dependencies": {
+      "grunt-contrib-watch": "~0.5.3"
+  },
+  "keywords": [
+    "gruntplugin",
+    "buster"
+  ],
+  "readmeFilename": "README.md"
+}

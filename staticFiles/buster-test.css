@@ -1,0 +1,290 @@
+.buster-test,
+html.buster-test {
+    margin: 5px 0 0 0 !important;
+    padding: 0;
+    background-color: #111;
+    font-family: Consolas !important;
+    color: #DADADA;
+}
+
+::-webkit-scrollbar {
+    height: 12px;
+    width: 12px;
+    background: #111;
+}
+::-webkit-scrollbar-thumb {
+    background: #222;
+    -webkit-border-radius: 3px;
+    -webkit-box-shadow: 0px 1px 2px rgba(0, 0, 0, 0.75);
+}
+::-webkit-scrollbar-corner {
+    background: #111;
+}
+
+h1 {
+    display: none !important;
+}
+
+.buster-test,
+body.buster-test {
+    font-family: Georgia, Times, serif;
+    font-size: 16px;
+    padding: 0 12px;
+}
+
+.buster-test h2 {
+
+    font-weight: normal;
+    margin: 0 0 0.25em;
+}
+
+.buster-test ul {
+    padding: 0;
+}
+
+.buster-test ul + ul {
+    margin-top: -1em;
+}
+
+.buster-test ul li {
+    list-style: none;
+}
+
+.buster-test li h3 {
+    display: inline-block;
+    font-size: 1.2em;
+    margin: 0 0 .25em;
+    padding: 0;
+}
+
+.buster-test li ul,
+.buster-test li p {
+    margin: 0 0 0.5em 2em;
+}
+
+.buster-test ul.test-results {
+    margin-bottom: 1em !important;
+}
+.buster-test li.success {
+    font-size: 10px;
+}
+
+.buster-test li.success:before {
+    color: #3c3;
+    content: "✓";
+    padding-right: 6px;
+}
+
+.error-summary {
+    border: 2px dashed #444;
+    padding: 10px;
+}
+
+.error-summary .error-message {
+    color: #c33 !important;
+}
+
+.buster-test .stack {
+    color: #BABABA;
+    font-size: 14px;
+    padding-left: 10px;
+}
+
+.buster-test .branch {
+    font-size: 1.1em;
+}
+
+.buster-test .branch1 {
+    font-size: 0.9em;
+    color: #888;
+}
+
+.buster-test .branch2 {
+    font-size: 0.8em;
+    color: #888;
+}
+
+.buster-test .context {
+    font-size: inherit !important;
+    color: inherit !important;
+}
+
+.buster-test .context:after {
+    content: ' >'
+}
+
+.buster-test .context.success:after {
+    content: ''
+}
+
+.buster-test .context.deferred:before {
+    content: " ✎";
+    color: #339bcc;
+}
+
+.time {
+    display: none !important;
+}
+
+.buster-test li.success,
+.buster-test li.failure {
+    color: #BABABA;
+}
+
+.buster-test li.timeout,
+.buster-test li.failure,
+.buster-test .error-message,
+.buster-test .stats.failure {
+    color: #c33;
+    font-size: 16px;
+}
+
+.buster-test .stats.success {
+    color: #3c3;
+}
+
+.buster-test .error h3,
+.buster-test .error .error-message {
+    color: #cc3;
+}
+
+.buster-test li.failure:before,
+.buster-test li.error:before {
+    content: "✖";
+    padding-right: 6px;
+}
+
+.buster-test .deferred {
+    color: #339bcc;
+}
+
+.buster-test .deferred:before {
+    content: "✎";
+    padding-right: 6px;
+}
+
+.buster-test .stats ul {
+    margin-left: 1em !important;
+    display: inline-block;
+}
+
+.buster-test .stats h2 {
+    margin: 0 0 .25em;
+}
+
+.buster-test .stats li {
+    display: inline;
+    font-size: 18px;
+    color: #BABABA !important;
+    padding-right: 1em;
+}
+
+.buster-test p {
+    display: inline-block;
+}
+.buster-test p,
+.buster-test li {
+    line-height: 1.5;
+}
+
+.buster-test h1,
+.buster-test h2,
+.buster-test h3,
+.buster-test h4,
+.buster-test h5,
+.buster-test h6,
+.buster-test p {
+    font-weight: normal;
+    margin: 0 0 1em;
+}
+
+.buster-test .stats h2 {
+    display: inline !important;
+}
+.buster-test h2 {
+    display: block !important;
+    margin: 0 !important;
+}
+
+.buster-test ul.test-results li {
+    padding-left: 1em;
+}
+
+/* Masthead */
+.buster-test h1 {
+    background: #333;
+
+    background: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        from(#5f5f5f),
+        to(#222)
+    );
+
+    background: -moz-linear-gradient(
+        top center,
+        #5f5f5f,
+        #222
+    );
+
+    /* For Internet Explorer 5.5 - 7 */
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5f5f5f, endColorstr=#ff222222);
+    /* For Internet Explorer 8 */
+    -ms-filter: "progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff5f5f5f, endColorstr=#ff222222)";
+    zoom: 1;
+
+    border-bottom: 4px solid #c0c6cc;
+    box-shadow: 0 0 10px #ddd;
+    -moz-box-shadow: 0 0 10px #ddd;
+    -webkit-box-shadow: 0 0 10px #ddd;
+    color: #fff;
+    font-size: 2em;
+    margin: 0 -12px 1em;
+    overflow: auto;
+    padding: 6px 12px;
+}
+
+.buster-test h1 a {
+    color: #fff;
+    padding-right: 1em;
+    text-decoration: none;
+}
+
+.buster-test h1 .title {
+    border-left: 1px solid #aaa;
+    float: left;
+    padding: 30px 0 0 20px;
+}
+
+.buster-test .messages li:before {
+    background: #f0f0f0;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    border: 1px solid #ccc;
+    display: inline-block;
+    font-family: monospace;
+    font-size: 10px;
+    font-variant: small-caps;
+    margin-right: 1em;
+    padding: 0 4px;
+}
+
+.buster-test .log:before {
+    content: "LOG";
+}
+
+.buster-test .info:before {
+    content: "INFO";
+}
+
+.buster-test .messages .warn:before {
+    content: "WARN";
+    border-color: #cc3;
+}
+
+.buster-test .messages .error:before {
+    content: "ERR";
+    border-color: #c00;
+}

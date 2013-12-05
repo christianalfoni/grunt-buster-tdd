@@ -1,0 +1,17 @@
+{
+"boss": true,
+"curly": true,
+"eqeqeq": true,
+"eqnull": true,
+"immed": true,
+"indent": 0,
+"latedef": true,
+"newcap": true,
+"noarg": true,
+"node": true,
+"quotmark": "single",
+"sub": true,
+"undef": true,
+"unused": true,
+"white": true
+}
