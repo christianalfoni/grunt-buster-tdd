@@ -20,6 +20,7 @@ module.exports = function (grunt) {
         doReload = false,
         busterCss = grunt.file.read(__dirname + '/../staticFiles/buster-test.css'),
         busterTest = grunt.file.read(__dirname + '/../staticFiles/buster-test.js'),
+        sinon = grunt.file.read(__dirname + '/../staticFiles/sinon-1.7.1.js'),
         expect = grunt.file.read(__dirname + '/../staticFiles/expect.js'),
         exposeExpect = grunt.file.read(__dirname + '/../staticFiles/exposeExpect.js'),
         reporter = grunt.file.read(__dirname + '/../staticFiles/reporter.js'),
@@ -100,7 +101,7 @@ module.exports = function (grunt) {
             res.end(busterCss);
         },
         sendReporter: function (req, res) {
-            var lib = busterTest + '\n' + '\n' + expect + '\n' + exposeExpect + '\n' + reporter.replace(/BUSTER-TEST-FILE/g, testFile) + '\n' + reload;
+            var lib = busterTest + '\n' + sinon + '\n' + expect + '\n' + exposeExpect + '\n' + reporter.replace(/BUSTER-TEST-FILE/g, testFile) + '\n' + reload;
             res.writeHead(200, {
                 "Content-Type": "application/javascript",
                 'Content-Length': lib.length
