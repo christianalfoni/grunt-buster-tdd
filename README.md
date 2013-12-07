@@ -25,7 +25,7 @@ module.exports = function (grunt) {
                 },
                 options: {
                     testsPath: 'tests/', // Where are your tests located?
-                    port: 3002 // Port to show tests, defaults to 3001
+                    port: 3001 // Port to show tests, defaults to 3001
                 }
             }
         }
