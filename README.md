@@ -39,6 +39,15 @@ module.exports = function (grunt) {
 
 };
 ```
+```javascript
+// FILE: tests/myTest-test.js
+buster.testCase('My test', {
+  'an assertion': function () {
+    buster.assert(true); // Use normal buster assertions
+    expect(true).to.be(true); // Or use expect JS
+  }
+});
+```
 Given that you have the file *tests/foo-test.js*, you load the runner with: **grunt --test=foo**. This means that all test files should have the following format: *"name"-test.js*.
 
 ## How it works
