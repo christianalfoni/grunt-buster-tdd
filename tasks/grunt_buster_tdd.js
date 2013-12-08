@@ -88,23 +88,20 @@ module.exports = function (grunt) {
                 '</html>';
 
             res.writeHead(200, {
-                "Content-Type": "text/html",
-                'Content-Length': body.length
+                "Content-Type": "text/html"
             });
             res.end(body);
         },
         sendRunnerCss: function (req, res) {
             res.writeHead(200, {
-                "Content-Type": "text/css",
-                'Content-Length': busterCss.length
+                "Content-Type": "text/css"
             });
             res.end(busterCss);
         },
         sendReporter: function (req, res) {
             var lib = busterTest + '\n' + sinon + '\n' + expect + '\n' + exposeExpect + '\n' + reporter.replace(/BUSTER-TEST-FILE/g, testFile) + '\n' + reload;
             res.writeHead(200, {
-                "Content-Type": "application/javascript",
-                'Content-Length': lib.length
+                "Content-Type": "application/javascript"
             });
             res.end(lib);
         },
@@ -112,8 +109,7 @@ module.exports = function (grunt) {
             if (req.url.match(/\.js$/)) {
                 var file = grunt.file.read(process.cwd() + req.url);
                 res.writeHead(200, {
-                    "Content-Type": "application/javascript",
-                    'Content-Length': file.length
+                    "Content-Type": "application/javascript"
                 });
                 res.end(file);
             } else {

@@ -68,6 +68,7 @@
 
     }
 
+
     var createStack = function (stack) {
         var stackObjects = [],
             stack = stack.split('\n'),
